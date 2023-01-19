@@ -1,0 +1,69 @@
+html {
+    background-color: rgb(31, 29, 29);
+}
+body {
+    background-color: black;
+    padding: 100px;
+}
+
+.container {
+    background-color: white;
+    border: 60px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 50%;
+    padding-bottom: 30px;
+    margin-left: 15%;
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.div-1b {
+    width: 400px;
+    font-family: Roboto;
+}
+
+ .tres-puntos {
+    width: 50px;
+}
+
+.img-div > .img-1 {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.div-2 > .img-2 {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.div3-likes, .div3-text {
+    margin: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+}
